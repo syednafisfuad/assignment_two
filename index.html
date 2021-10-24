@@ -1,0 +1,131 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  
+  <body onLoad="return displayQuote()">
+      <div class="content">
+              <div class="quote" id="quote">
+              </div>
+              <table>                  
+                      <tr>
+                              <th class="green" onClick="changeColor('green')">&nbsp;</th>
+                              <th class="yellow" onClick="changeColor('yellow')">&nbsp;</th>
+                      </tr>
+                      <tr>
+                              <th class="blue" onClick="changeColor('blue')">&nbsp;</th>
+                              <th class="orange" onClick="changeColor('orange')">&nbsp;</th>
+                      </tr>
+              </table>
+  
+   </div>
+  
+  
+  
+  <br>
+  <br>
+  <br>
+  
+  
+      <div id="containertwo">
+       <div id="convert"><br><br><br> Convert</div> 
+       <input type="tel" placeholder="Converter" id="weightInput" onclick="convert()">
+        <div id="result"></div>
+         <button id="button">Go</button>
+         <select id="choice">
+               <option id="kg" value="kg">lb to kg</option>
+               <option id="lb" value="lb">kg to lb</option>
+         </select>
+      </div>
+  
+  
+     <br>
+     <br>
+     <br>
+  
+  
+  
+      <div id="container3">
+     <table>
+      <tr>
+        <td>Input Series of Number:</td>
+        <td><input name="box1" type="text" id="box1" value="12,12,22,9,1,20" /></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Max :</td>
+        <td><div id="max"> </div></td>
+      </tr>
+      <tr>
+        <td>Min :</td>
+        <td><div id="min"> </div></td>
+      </tr>
+      <tr>
+        <td>Sum  :</td>
+        <td><div id="sum"> </div></td>
+      </tr>
+      <tr>
+        <td>Average :</td>
+        <td><div id="avg"> </div></td>
+      </tr>
+      <tr>
+        <td>Reverse Order :</td>
+        <td><div id="reverse"> </div></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td></td>
+      </tr>
+    </table>
+  <button onclick="calculate()">calculate</button>
+   </div>
+  
+  
+    <br>
+    <br>
+    <br>
+    
+     
+  
+  
+  
+  
+    <div id="container4">
+       <p id="magic">Magic!</p>
+       <div id="container5">
+            <textarea name="textarea" id="textarea1" cols="93" rows="20" onclick='a()'>
+            </textarea>
+            </div>
+       <div id=container6>
+       <div>  
+       <input id="button1" type="button" value="Clear It" onclick="clearAll()">
+       <input id="button2" type="button" value="Capitalize" onclick="toggle()"> 
+       <input id="button3" type="button" value="Sort" onclick="sortContents()">
+       <input id="button4" type="button" value="Reverse" onclick="reverse()">
+       <input id="button5" type="button" value="Strip Blank" onclick="stripContents()">
+       <input id="button6" type="button" value="Add Numbers" onclick="addNumber()">
+       <input id="button7" type="button" value="Shuffle" onclick="shuffle()">
+       </div> 
+    </div> 
+  
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+      <script src="index.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,168 @@
+th{
+    width: 30px;
+    height: 20px;
+    border: solid 3px #505050;
+    cursor: pointer;
+}
+/* set color of the green button*/
+.green{ background-color: green;        }
+/* set color of the yellow button*/
+.yellow{ background-color: yellow;      }
+/* set color of the blue button*/
+.blue{ background-color: blue;  }
+/* set color of the orange button*/
+.orange{ background-color: orange;      }
+/* styles of the div "quote" */
+.quote{ 
+    border: solid 4px green; /* div border with color */
+    float: left;
+    width: 75%;
+    background-color: #F5D737; /* div  background color*/
+    color: red; /* font color of the quote */
+    text-align: center;
+    padding: 25px;
+}
+.content{
+    margin: 100px auto;width: 800px;min-height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#containertwo{
+         height:100px;
+         width:690px;
+         border:2px black solid;
+         padding:20px;
+         position:absolute;
+         right:27%;
+         top:45%;
+}
+
+#button{
+    position:absolute;
+    right:30%;
+    top:50%;
+}
+
+#choice{
+        position:absolute;
+        right:35%;
+        top:50%;
+}
+
+#weightInput{
+     position:absolute;
+     right:45%;
+     top:50%;
+}
+
+#convert{
+    position:absolute;
+    top:12%;
+    right:70%;
+}
+
+#result{
+    position:absolute;
+    top:50%;
+    right:8%;
+}
+
+
+#form{
+    position:absolute;
+         right:37%;
+         top:80%;
+}
+
+
+
+#container3{
+    border:2px solid black;  
+    height:250px;
+    width:700px;
+    padding:3%;
+    margin:0 auto;
+    text-align:center;
+    position:absolute;
+    top:75%;
+    right:25%;
+}
+
+
+
+
+
+
+
+ #container4{
+    height:400px;
+    width:720px;
+    border:2px black solid;
+    padding:20px;
+    position:absolute;
+    right:27%;
+    top:135%;
+    background-color: gray;
+ }
+
+ #button1{
+     position:absolute;
+     top:93%;
+     right:83%;
+ }
+
+ #button2{
+     position:absolute;
+     top:93%;
+     right:68%;
+ }
+
+ #button3{
+    position:absolute;
+    top:93%;
+    right:61%;
+ }
+   
+ #button4{
+    position:absolute;
+    top:93%;
+    right:50%;
+ }
+
+ #button5{
+ position:absolute;
+    top:93%;
+    right:37%;
+ }
+
+ #button6{
+ position:absolute;
+    top:93%;
+    right:22%;
+ }
+
+ #button7{
+    position:absolute;
+    top:93%;
+    right:10%;
+ }
+
+#magic{
+    font-weight: bold;
+    font-size:150%;;
+}
+
+#textarea1{
+    height:280px;
+    width:700px;
+    border:2px green dotted;
+}
